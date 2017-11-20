@@ -17,6 +17,15 @@ layout: default
 </article>
 
 <div id="post-nav">
+	<div class="previous">
+			{% if page.previous.url %}
+			<a href="{{ site.baseurl }}{{ page.previous.url }}">
+				<span>Previous entry</span>
+				{{ page.previous.title }}
+			</a>
+			{% endif %}
+	</div>
+	
 	<div class="next">
 		{% if page.next.url %}
 		<a href="{{ site.baseurl }}{{ page.next.url }}">
@@ -26,12 +35,5 @@ layout: default
 		{% endif %}
 	</div>
 
-	<div class="previous">
-		{% if page.previous.url %}
-		<a href="{{ site.baseurl }}{{ page.previous.url }}">
-			<span>Previous entry</span>
-			{{ page.previous.title }}
-		</a>
-		{% endif %}
-	</div>
+	
 </div>
