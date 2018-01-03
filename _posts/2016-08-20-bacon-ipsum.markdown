@@ -6,7 +6,7 @@ thumbnail: earth.jpg
 ---
 
 Bacon ipsum dolor amet fatback biltong cow kielbasa. Ground *round* jowl picanha **short ribs**, short loin shoulder flank ham hock. Fatback pork shoulder, frankfurter kevin spare ribs alcatra shank picanha ball tip.
-
+<!-- more -->
 > ## Capicola leberkas fatback, kielbasa strip steak.
 
 Chicken biltong ribeye, pig cupim filet mignon sausage.

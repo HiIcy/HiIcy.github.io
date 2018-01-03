@@ -26,4 +26,5 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-excerpt_separator: "\n\n\n\n"
+# 
+excerpt_separator: "<!-- more -->"
